@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Muhammad Radikal
-    </h1>
+    {% for artikel in list_artikel %}
+        <h1>{{artikel.judul}}</h1>
+    {% endfor %}
 </body>
 </html>
